@@ -1,10 +1,13 @@
-def main(data:str):
+def main(n):
     """
-    The data is from the file. Return number of characters in the file.
+    Return numbers from zero to n in a string view.
     Args:
-        data: str
+        n: int
     Returns:
-        int: return answer
+        string: return  answer
     """
-
-# Read data from file
+    a = " "
+    for i in range(n):
+        a+=str(i)+","
+    return a
+print(main(3))
